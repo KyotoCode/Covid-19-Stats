@@ -7,14 +7,14 @@ countryClass.getVirus()
 })
 
 
-document.getElementById('dbl').addEventListener('mouseover', linkFun);
+document.getElementById('dbl').addEventListener('mouseover', linkIn);
 
-function linkFun (){
+function linkIn (){
   document.getElementById('dbl').innerHTML = 'https://api.covid19api.com/summary';
 
 }
-document.getElementById('dbl').addEventListener('mouseout', linkFuny);
+document.getElementById('dbl').addEventListener('mouseout', linkOut);
 
-function linkFuny(){
+function linkOut(){
   document.getElementById('dbl').innerHTML = 'Data taken from Covid-19 rest API';
 }
