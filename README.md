@@ -6,5 +6,6 @@ You can adapt app for your country by changing UI.js
 <br>
 Example:
 
-info.Countries[147] = data about Serbia 
+info.Countries[147] = data about Serbia
+<br>
 info.Countries[148] = data about Seychelles etc.
